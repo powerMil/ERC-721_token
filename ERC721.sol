@@ -10,7 +10,7 @@ contract MyToken is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
     uint256 private _nextTokenId;
 
     constructor(address initialOwner)
-        ERC721("MyNFTCollection", "MFT")
+        ERC721("MyNFTCollection", "NFT")
         Ownable(initialOwner)
     {}
 
